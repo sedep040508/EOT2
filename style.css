@@ -3,14 +3,13 @@
 .flex {
     display: flex;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 50px;
 }
 
 .card_we {
 
     width: 306px;
     height: 375px;
-    margin-bottom: 80px;
     box-sizing: border-box;
     /* Neutral/03 */
     border: 1.5px solid rgb(219, 223, 208);
@@ -19,7 +18,9 @@
     /* Neutral/01 */
     background: #F5F5F5;
 }
-
+.cards{
+    margin-left: 130px;
+}
 .card_imgin {
     width: 150px;
     height: 200px;
