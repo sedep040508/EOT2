@@ -7,6 +7,7 @@
 }
 
 .card_we {
+
     width: 306px;
     height: 375px;
     margin-bottom: 80px;
@@ -16,7 +17,7 @@
     border-radius: 12px;
 
     /* Neutral/01 */
-    background: rgb(255, 255, 255);
+    background: #F5F5F5;
 }
 
 .card_imgin {
