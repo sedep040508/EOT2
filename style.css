@@ -129,7 +129,9 @@
     transform-style: preserve-3d;
     margin-top: 80px;
 }
-
+header{
+    margin-bottom: 190px;
+}
 .flip-box .inner {
     position: absolute;
     left: 0;
