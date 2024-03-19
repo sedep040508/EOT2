@@ -160,4 +160,43 @@ header{
 
 .carousel-caption {}
 
+/* main */
 
+
+.main {
+    background: #02c37e;
+  }
+  
+  
+  .main_left {
+    width: 50%;
+  }
+  
+  .main_right {
+    width: 50%;
+  }
+  
+  .main_txt {
+    
+  }
+  
+  .tit {
+    font-size: 71px;
+    line-height: 90px;
+    padding-top: 130px;
+    font-family: "Lobster";
+  }
+  
+  .txt {
+    font-size: 33px;
+    line-height: 37px;
+    font-weight: 400;
+    font-family: "Lobster";
+  }
+  
+  .btn__eot {
+    background: #0011ff;
+    width: 200px;
+    height: 55px;
+    color: #fff;
+  }
