@@ -48,7 +48,12 @@
     margin-left: 20px;
 }
 
-
+.bg-dark{
+    height: 60px;
+}
+.btn .btn-outline-success{
+    height: 50px;
+}
 .logo{
     width: 50px;
     filter: brightness(150%);
@@ -142,7 +147,7 @@
 header{
     margin-bottom: 60px;
 }
-.flip-box .inner {
+.flip-box .inner { 
     position: absolute;
     left: 0;
     width: 100%;
