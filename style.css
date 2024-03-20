@@ -162,8 +162,75 @@ header{
 
 .carousel-caption {}
 
-.btn-outline-success{
-    height: 50px;
-}
+/* main */
 
+
+.main {
+    background: #02c37e;
+  }
   
+  
+  .tit {
+    font-size: 71px;
+    line-height: 90px;
+    padding-top: 40px;
+    font-family: "Lobster";
+  }
+  
+  .txt {
+    font-size: 33px;
+    line-height: 37px;
+    font-weight: 400;
+    font-family: "Lobster";
+  }
+  
+  .btn__eot {
+    background: #CCF3E5;
+    width: 200px;
+    height: 55px;
+    color: #000;
+  }
+
+    .main_btn {
+    width: 500px;
+    padding-right: 80px;
+   }
+
+  .btn__eot {
+    border-radius: 4px;
+    background-color: #CCF3E5;
+    border: none;
+    color: #000;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn__eot span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn__eot span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn__eot:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn__eot:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
