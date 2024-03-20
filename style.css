@@ -47,7 +47,9 @@
 .navbar-nav{
     margin-left: 20px;
 }
-
+.container-fluid{
+    height: 60px;
+}
 .bg-dark{
     height: 60px;
 }
