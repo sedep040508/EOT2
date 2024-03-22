@@ -56,6 +56,13 @@
 .btn .btn-outline-success{
     height: 50px;
 }
+.main_btns{
+    display: flex;
+    gap: 70px;
+}
+.d_flex{
+    gap: 70px;
+}
 .logo{
     width: 50px;
     filter: brightness(150%);
@@ -177,7 +184,7 @@ header{
   
   
   .tit {
-    font-size: 71px;
+    font-size: 56px;
     line-height: 90px;
     padding-top: 40px;
     font-family: "Lobster";
